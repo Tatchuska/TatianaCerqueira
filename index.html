@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Tatiana Cerqueira</title>
+</head>
+<body>
+    <header>
+        <h1>PORTFOLIO</h1>
+        <nav> 
+            <!-- Barra de navegação contendo links para as seções da página -->
+            <ul>
+                <li><a href="#sobremim">SOBRE MIM</a></li>
+                <li><a href="#curriculo">FORMAÇÃO</a></li>
+                <li><a href="#portf">PORTFÓLIO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <section id="sobremim">
+        <h1>SOBRE MIM</h1>
+
+            <!-- Área de apresentação, contém uma pixel arte inspirada em minha foto -->
+        <img id="pixel_me" 
+        src="images/pixel_me.jpg"
+        alt="Avatar feito em pixel art de uma mulher ruiva vestida com terno preto, em um fundo de folhas verdes." />
+
+        <div id="ola">
+            <p>Olá, mundo! Meu nome é Tatiana Cerqueira e sou estudante de Análise e Desenvolvimento de Sistemas na universidade Uninter. Sou apaixonada por jogos, meu objetivo é me tornar desenvolvedora de games e estou em busca de estágio da área.</p>
+        </div>
+     </section>
+
+     <section id="curriculo">
+        <h1>FORMAÇÃO</h1>
+        <div class="cv">
+
+            <!-- Escolaridade -->
+            <h2>EDUCAÇÃO</h2>
+            <ul><br><br>
+                <li>Uninter - Análise e Desenvolvimento de Sistemas <br>
+                Graduação prevista para 2025<br><br><br><br>
+                </li>
+                <li>Senac Rio - Técnico Administrativo<br>
+                Graduação em 2022</li>
+            </ul>
+        </div>
+        
+             <!-- Habilidades e competências -->
+        <div class="cv">
+            <h2>SKILLS</h2>
+            <ul><br><br>
+                <li>Python <br><br></li>
+                <li>HTML/CSS<br><br></li>
+                <li>JavaScript<br><br></li>
+                <li>C++<br><br></li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
+            <!-- Idiomas -->
+        <div class="cv">
+            <h2>IDIOMAS</h2>
+            <ul><br><br>
+                <li>Português Nativo<br><br><br><br></li>
+                <li>Inglês Fluente<br><br><br><br></li>
+                <li>Espanhol Intermediário</li>
+            </ul>
+        </div>
+            <!-- Cursos e certificados -->
+        <div class="cv">
+            <h2>CERTIFICADOS</h2>
+            <ul><br><br>
+                <li>Segurança de End Point - Cisco Netwrok Academy<br><br><br></li>
+                <li>C++ Funtamentals - GameDev.tv<br><br><br><br></li>
+                <li>Linux Unhatched - Cisco Network Academy</li>
+            </ul>
+            
+        </div>
+     </section>
+
+     <section id="portf">
+        <h1>PORTFÓLIO</h1>
+
+            <!-- Video do 2 projeto criado no curso de C++ -->
+        <div class="portfolio">
+            <h2>PLATFORMER GAME PROJECT</h2>
+            <video src="images/Dark Mage Preview.mp4" controls></video>
+        </div>
+
+            <!-- Vídeo do 3 projeto criado no curso de C++ -->
+        <div class="portfolio">
+            <h2>TOP-DOWN GAME PROJECT</h2>
+            <video src="images/Knight Top Down Project.mp4" controls></video>
+        </div>
+     </section>
+
+     <section id="contato">
+        <h1>CONTATO<br><br><br></h1>
+        <div class="info">
+        <form id="form">
+            <label for="nome" >Nome Completo:</label>
+            <input type="text" id="nome" name="nome" >
+            <label for="telefone" >Telefone:</label>
+            <input type="text" id="telefone" name="telefone" >
+            <label for="email" >Email:</label>
+            <input type="text" id="email" name="email" >
+            <label for="mensagem" >Mensagem:</label>
+            <input type="textarea" id="mensagem" name="mensagem" >
+            <button >Enviar</button>
+          </form>
+        </div>
+     </section>
+
+     <footer>
+        <p>Este é um projeto para fins educativos. Criado em março de 2024.</p>
+     </footer>
+    
+</body>
+</html>
